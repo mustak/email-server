@@ -1,0 +1,12 @@
+{
+  "smtp": {
+    "host": "smtp.email.com",
+    "port": 465,
+    "auth": { "user": "user@email.com", "pass": "myPassword" }
+  },
+  "imap": {
+    "host": "imap.email.com",
+    "port": 993,
+    "auth": { "user": "user@email.comm", "pass": "myPassword" }
+  }
+}
