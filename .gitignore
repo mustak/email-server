@@ -2,6 +2,7 @@
 serverInfo.json
 dist/
 test.json
+temp.js
 
 ### Node ###
 # Logs

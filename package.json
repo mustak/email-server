@@ -20,6 +20,7 @@
 		"@types/nodemailer": "^6.4.4",
 		"@typescript-eslint/eslint-plugin": "^4.28.3",
 		"@typescript-eslint/parser": "^4.28.3",
+		"chalk": "^4.1.2",
 		"eslint": "^7.30.0",
 		"eslint-config-airbnb-typescript": "^12.3.1",
 		"eslint-plugin-import": "^2.23.4",
