@@ -70,7 +70,7 @@ export class Worker {
             {
                 auth: Worker.serverInfo.imap.auth,
                 // ignoreTLS: false,
-                // requireTLS: false,
+                requireTLS: false,
             }
         );
         client.logLevel = client.LOG_LEVEL_NONE;
