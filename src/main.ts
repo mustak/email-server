@@ -39,6 +39,7 @@ app.delete('/messages/:mailbox/:id', cntlMessages.deleteMessage);
 app.post('/messages', cntlMessages.sendMessage);
 app.get('/contacts', cntlContacts.listContacts);
 app.post('/contacts', cntlContacts.addContact);
+app.put('/contacts/:id', cntlContacts.updateContact);
 app.delete('/contacts/:id', cntlContacts.deleteContact);
 
 app.listen(PORT, () => {
